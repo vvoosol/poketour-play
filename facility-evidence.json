@@ -1,0 +1,25 @@
+{
+ "checkedAt":"2026-10-03",
+ "parksSource":"https://data.seoul.go.kr/dataList/OA-394/A/1/datasetView.do",
+ "parksEdition":"서울시 주요 공원현황(2026 하반기), 2026-09-23 공개",
+ "parks":[
+  {"id":"park-asia","name":"아시아근린공원","aliases":["아시아공원"],"areaM2":66027.8,"coord":[127.0762885,37.5102779]},
+  {"id":"park-ogeum","name":"오금근린공원","aliases":["오금공원"],"areaM2":219167,"coord":[127.1323957,37.5038715]},
+  {"id":"park-songpanaru","name":"송파나루공원","aliases":["송파나루공원"],"areaM2":285757,"coord":[127.10251450538635,37.50999818321275],"coordSource":"OSM 공원 POI. 서울시 표의 좌표와 차이가 있어 OSM 지형 좌표 사용"},
+  {"id":"park-munjeong","name":"문정근린공원","aliases":["문정공원"],"areaM2":49972,"coord":[127.1275819,37.4862156]},
+  {"id":"park-olympic","name":"올림픽공원","aliases":["올림픽공원"],"areaM2":1513491.2,"coord":[127.12172448635101,37.5192741804508],"coordSource":"OSM 공원 POI"},
+  {"id":"park-jamsil","name":"잠실한강공원","aliases":["잠실 한강 공원"],"areaM2":539071,"coord":[127.09432303905487,37.52035914150457],"source":"https://hangang.seoul.go.kr/www/contents/651.do?mid=444"},
+  {"id":"park-gwangnaru","name":"광나루한강공원","aliases":["광나루한강공원"],"areaM2":1554810,"coord":[127.11568415164948,37.54087257234109],"source":"https://hangang.seoul.go.kr/www/contents/645.do?mid=468","note":"전체 공원 면적이며 송파구 내 면적이 아님. 송파 경계 안 OSM 지점만 표시"}
+ ],
+ "unresolvedParks":[{"name":"천마근린공원","rawArea":"185295㎥","reason":"공식 표의 부피 단위 오류. 면적 단위 재확인 전 제외"},{"name":"장지근린공원","rawArea":"585652㎥","reason":"공식 표의 부피 단위 오류. 면적 단위 재확인 전 제외"}],
+ "hospitals":[
+  {"id":"hospital-asan","name":"서울아산병원","aliases":["서울아산병원"],"classification":"상급종합","coord":[127.1096009016037,37.52630274621567],"source":"https://www.hira.or.kr/ra/hosp/hospInfoAjax.do?ykiho=JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQwMyQyNjE0ODEjNDEjJDEjJDQjJDgz"},
+  {"id":"hospital-police","name":"국립경찰병원","aliases":["국립 경찰병원","경찰병원"],"classification":"종합병원","coord":[127.12343037128448,37.49617991599573],"source":"https://www.hira.or.kr/ra/hosp/hospInfoAjax.do?isNewWindow=Y&isPopupYn=Y&ykiho=JDQ4MTg4MSM1MSMkMSMkMCMkODkkMzgxMzUxIzExIyQxIyQzIyQ4OSQzNjE4MzIjNjEjJDEjJDgjJDgz"}
+ ],
+ "shops":[
+  {"id":"shop-lotte-jamsil","name":"롯데백화점 잠실점","classification":"백화점","coord":[127.098141751177,37.5113096112036],"source":"https://www.songpa.go.kr/culture/tourListMain.do?key=5116&resrceClssCd=TR0181","sourceNote":"송파구 대규모점포 목록 좌표. 같은 주소 마트·하이마트는 별도 생성하지 않음"},
+  {"id":"shop-lotte-worldmall","name":"롯데월드몰 · 에비뉴엘 월드타워점","classification":"복합쇼핑몰","coord":[127.104446890835,37.5137519612953],"source":"https://www.songpa.go.kr/culture/tourListMain.do?key=5116&resrceClssCd=TR0181","sourceNote":"송파구 대규모점포 목록에서 같은 주소·좌표인 쇼핑몰과 백화점을 하나의 게임 시설로 통합"}
+ ],
+ "shoppingCriterion":"송파구 공개 대규모점포 목록에 등재된 백화점·쇼핑센터·복합쇼핑몰 중 좌표 확인 완료 시설만 포함. 마트·전자제품 단독매장 제외. 같은 복합시설·주소·좌표는 통합",
+ "shoppingSource":"https://www.songpa.go.kr/culture/tourListMain.do?key=5116&resrceClssCd=TR0181"
+}
